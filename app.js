@@ -7,9 +7,11 @@ function run(){
     const num5 = parseInt( document.getElementById('input5').value);
     const num6 = parseInt( document.getElementById('input6').value);
     const num7 = parseInt( document.getElementById('input7').value);
-    sum1 = num1 + num2 + num3 +num4 +num5 + num6 +num7;
+    const num8 = parseInt( document.getElementById('input8').value);
+    sum1 = num1 + num2 + num3 +num4 +num5 + num6 +num7 +num8;
     sum2 = sum1 / sint;
-    sum = sum2 /10;
+    sum3 = sum2 /10;
+    sum = Number((sum3).toFixed(3));
     
     out.innerHTML = sum;
     console.log(sum);
