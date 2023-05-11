@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.body{
+    background-color: #dde5ff;
+}
+.p{
+    position: absolute;
+    padding-top: 43px;
+    padding-left: 26px;
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 40px;
+    font-weight: 550;
+}
+.logof{
+    color: rgb(136, 0, 255);
+}
+.main{
+    position: relative;
+    width: 900px;
+    height: 900px;
+    left: 177px;
+    top: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 50px 18px rgba(0, 0, 0, 0.12), inset 0px 0px 21px 38px rgba(255, 255, 255, 0.91);
+    border-radius: 27px;
+
+}
+.head{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 27px;
+    font-weight: 500;
+}
+.anna{
+    text-align: center;
+}
+.inputf{
+    padding-top: 50px;
+    padding-left: 45px;
+    font-size: 25px;
+    color: #383838;
+}
+.sinput{
+    box-sizing: border-box;
+    padding-left: 20px;
+    position: relative;
+    width: 327px;
+    height: 55px;
+    background: #FFFFFF;
+    border-color: #7d7d7d;
+    color:#ff0000 ;
+    border-radius: 5px;
+    font-size: 20px;
+    left: 20px;
+}
+.sel{
+    color: #ff0000;
+}
+.in{
+    box-sizing: border-box;
+    padding-left: 20px;
+    position: relative;
+    width: 400px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius:5px;
+    font-size: 15px;
+    color: #0225a4;
+    left: 20px;
+}
+.input{
+    padding-left: 190px;
+    padding-top: 20px;
+    font-size: 25px;
+    color: #383838;
+    border-color: #7d7d7d;
+}
+.calbtn{
+    position: absolute;
+    width: 215px;
+    height: 55px;
+    top: 800px;
+    left: 200px;
+    color: #dde5ff;
+    background: #001AFF;
+    box-shadow: 0px 19px 49px 14px rgba(0, 56, 255, 0.22);
+    border-radius: 9px;
+    border-style: none;
+    font-size: 20px;
+}
+.output{
+    position: absolute;
+    width: 215px;
+    height: 55px;
+    top: 800px;
+    left: 520px;
+    color: #000000;
+    background: #ffffff;
+    border-color: #000000;
+    border-radius: 9px;
+    font-size: 14px;
+    font-weight: 200;
+    background: #FFFFFF;
+    border: 1px solid #B8B8B8;
+    border-radius: 9px;
+    text-align: center;
+}
+.outx{
+    text-align: center;
+    padding: 13px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.mystyle{
+    display: none;
+}
+
+@media screen and (max-width:840px){
+    .main{
+        position: absolute;
+        left: 28px;
+        width: 700px;
+        height: 1300px;
+    }
+    .input{
+        position: relative;
+    }
+}
