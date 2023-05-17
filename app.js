@@ -8,7 +8,8 @@ function run(){
     const num6 = parseInt( document.getElementById('input6').value);
     const num7 = parseInt( document.getElementById('input7').value);
     const num8 = parseInt( document.getElementById('input8').value);
-    sum1 = num1 + num2 + num3 +num4 +num5 + num6 +num7 +num8;
+    const num9 = parseInt( document.getElementById('input9').value);
+    sum1 = num1 + num2 + num3 +num4 +num5 + num6 +num7 +num8 +num9;
     sum2 = sum1 / sint;
     sum3 = sum2 /10;
     sum = Number((sum3).toFixed(3));
@@ -17,4 +18,11 @@ function run(){
     console.log(sum);
    
 }
+
+let button = document.querySelector(".menu"),
+    links = document.querySelector(".nav");
+
+    button.addEventListener("click",()=>{
+        links.classList.toggle("display")
+})
 

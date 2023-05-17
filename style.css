@@ -9,7 +9,7 @@
 
 }
 .body{
-    background-color: #dde5ff;
+    background-color: #eef2ff;
 }
 .p{
     position: absolute;
@@ -25,14 +25,72 @@
 .logof{
     color: rgb(136, 0, 255);
 }
+
+.nav{
+    position:absolute;
+    right: 20px;
+    display: flex;
+    top: 10px;
+}
+.nav li{
+    
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+    
+     
+}
+.nav li a{
+    color: #0458ff;
+    font-weight: 500;    
+    font-size: 25px;
+    text-decoration: none;
+    flex-direction: column;
+    display: flex;
+    text-align: right;
+         
+}
+.nav li a:hover{
+    font-size: 30px;
+    transition: 0.5s;
+    
+}
+.h1{
+    position: absolute;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 40px;
+    color:#001AFF;
+}
+.p1{
+    color:#4d4d4d;
+    position: absolute;
+    font-size: 30px;
+    padding-top: 240px;
+    padding-left: 60px;
+    line-height: 70px;
+    font-weight: 550;
+}
+.p1m{
+    display: none;
+}
+.img1{
+    padding-top: 60px;
+    float: right;
+    padding-right: 100px;
+    width: 660px;
+}
+.menu{
+    display: none;
+}
 .main{
     position: relative;
     width: 900px;
-    height: 980px;
-    left: 177px;
-    top: 100px;
-    background: #FFFFFF;
-    box-shadow: 0px 14px 50px 18px rgba(0, 0, 0, 0.12), inset 0px 0px 21px 38px rgba(255, 255, 255, 0.91);
+    height: 1050px;
+    left: 300px;
+    top: 700px;
+    background: rgb(247, 247, 247);
+    box-shadow: 0px 0px 80px 5px rgba(0, 0, 0, 0.12);
     border-radius: 27px;
 
 }
@@ -90,7 +148,7 @@
     position: absolute;
     width: 215px;
     height: 55px;
-    top: 860px;
+    margin-top: 50px;
     left: 200px;
     color: #dde5ff;
     background: #001AFF;
@@ -103,7 +161,7 @@
     position: absolute;
     width: 215px;
     height: 55px;
-    top: 860px;
+    margin-top: 50px;
     left: 520px;
     color: #000000;
     background: #ffffff;
@@ -126,6 +184,85 @@
 .mystyle{
     display: none;
 }
+.mark{
+    margin-top: 100px;
+    margin-left: 240px;
+    box-shadow: 0px 0px 80px 5px rgba(0, 0, 0, 0.12);
+}
+.h2{
+    margin-top: 900px;
+    padding-left: 50px;
+    font-size: 35px;
+    color: #001AFF;
+}
+.p2{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+    color: #434549;
+}
+.cont{
+    padding-bottom: 40px;
+    font-size: 45px;
+    margin-left: 430px;
+}
+.form{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 230px;
+}
+.name{
+    border-radius: 15px;
+    position: absolute;
+    width: 300px;    height: 10px;
+    padding: 30px;
+    left:350px;
+    border-color: #1d30da;
+}
+.email{
+    border-radius: 15px;
+    position: absolute;
+    width: 300px;
+    height: 10px;
+    padding: 30px;
+    left: 780px;
+    border-color: #001AFF;
+}
+.subject{
+    border-radius: 15px;
+    position: absolute;
+    width: 730px;
+    height: 10px;
+    padding: 30px;
+    margin-top: 100px;
+    left: 350px;
+    border-color: #001AFF;
+}
+.text{
+    border-radius: 15px;
+    position: absolute;
+    width: 730px;
+    height: 150px;
+    padding: 30px;
+    margin-top: 200px;
+    left: 350px;
+    border-color: #001AFF;
+}
+.send{
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    margin-top: 450px;
+    margin-left: 150px;
+    color: #dde5ff;
+    background: #001AFF;
+    box-shadow: 0px 19px 49px 14px rgba(0, 56, 255, 0.22);
+    border-radius: 9px;
+    border-style: none;
+    font-size: 20px;
+}
+
 
 @media screen and (max-width:840px){
 
@@ -138,10 +275,14 @@
     }
     .main{
         position: absolute;
+        top: 600px;
         left: 20px;
         width: 320px;
-        height: 760px;
+        height: 790px;
         border-radius: 10px;
+    }
+    .menu{
+        display: flex;
     }
     .head{
         font-size: 27px;
@@ -178,7 +319,7 @@
         top: -30px;
     }
     .calbtn{
-        top: 660px;
+        margin-top: 1px;
         left: 25px;
         width: 120px;
         height: 40px;
@@ -186,7 +327,7 @@
         color: white;
     }
     .output{
-        top: 660px;
+        margin-top: 1px;
         left: 170px;
         width: 120px;
         height: 40px;
@@ -197,5 +338,106 @@
         padding-top: 7px;
         font-size: 15px;
         color: #000000;
+    }
+    .nav{
+        display: none;
+    }
+ 
+    
+    .h1{
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .p1{
+        display: none;
+    }
+    .p1m{
+        display: flex;
+        position: absolute;
+        font-size: 17px;
+        line-height: 30px;
+        padding-left: 25px;
+        padding-top: 350px;
+        font-weight: 500;
+        color: #193bb6;
+        width: 320px;
+    }
+    .img1{
+        position: absolute;
+        width: 290px;
+        padding-top: 100px;
+        padding-left: 30px;
+        
+    }
+    
+    .h2{
+        padding-top: 470px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 25px;
+    }
+    .p2{
+        font-size: 15px;
+        padding: 20px;
+    }
+    .mark{
+        width: 350px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .cont{
+        font-size: 25px;
+        margin-left: 250px;
+    }
+    .form{
+        margin-left: -350px;
+    }
+    .name{
+        width: 115px;
+        height: 1px;
+        font-size: 10px;
+        padding: 20px;
+        border-radius: 5px;
+        margin-left: 15px;
+        border-color: #001AFF;
+    }
+    .email{
+        position: absolute;
+        width: 115px;
+        height: 1px;
+        font-size: 10px;
+        padding: 20px;
+        border-radius: 5px;
+        margin-left: -245px;
+        border-color: #001AFF;
+    }
+    .subject{
+        width: 290px;
+        height: 1px;
+        font-size: 10px;
+        padding: 20px;
+        border-radius: 5px;
+        margin-left: 15px;
+        margin-top: 60px;
+        border-color: #001AFF;
+    }
+    .text{
+        width: 290px;
+        height: 80px;
+        font-size: 10px;
+        padding: 20px;
+        border-radius: 5px;
+        margin-left: 15px;
+        margin-top: 120px;
+        border-color: #001AFF;
+    }
+    .send{
+        position: absolute;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        color: white;
+        margin-top: 260px;
+        margin-left: 140px;
     }
 }
