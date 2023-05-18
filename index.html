@@ -10,7 +10,7 @@
 <body class="body">
     <div>
         <p class="p">by</p>
-        <h1 class="logo">Coherent <span class="logof">{</span></h1>
+        <h1 class="logo">Coherent<span class="logof">{^}</span></h1>
         </div>
         <div class="navbar">
             <ul class="nav">
@@ -26,9 +26,9 @@
 
     </div>
     <div>
-        <h2 class="h1">Anna University regulation GPA-Calculator.</h2>
-        <p class="p1m">We have created a GPA-Calculator for Anna University regulation 2021. Use it to check your semester GPA scores.</p>
-        <p class="p1">We have created a GPA-Calculator for <br> Anna University regulation 2021. Use it to check <br> your semester GPA scores.</p>
+        <h2 class="h1">Anna University regulation GPA, CGPA-Calculator.</h2>
+        <p class="p1m">We have created a GPA, CGPA-Calculator for Anna University regulation 2021. Use it to check your semester GPA and CGPA scores.</p>
+        <p class="p1">We have created a GPA, CGPA-Calculator for <br> Anna University regulation 2021. Use it to check <br> your semester GPA and CGPA scores.</p>
         <img class="img1" src="calculating.png">
     </div>
     <div class="main">
@@ -185,7 +185,79 @@
    
     
     </div>
-    <div>
+    <div class="main2">
+        <h2 class="head">CGPA Calculator</h2>
+        <p class="anna">-Anna University regulation 2021-</p>
+        <div class="inputf">
+            <form >
+                <label>Select number of subjects </label>
+                <select id="sinput2" class="sinput2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                </select>
+            </form>
+        </div>
+
+        <div class="input2">
+            <form >
+                <label class="sub">Semester 1</label>
+                <input type="number" id="input21" class="in2" placeholder="GPA" value="0">
+            </form>
+        </div>
+
+        <div class="input2">
+            <form >
+                <label class="sub">Semester 2</label>
+                <input type="number" id="input22" class="in2" placeholder="GPA" value="0">
+            </form>
+        </div>
+        <div class="input2">
+            <form >
+                <label class="sub">Semester 3</label>
+                <input type="number" id="input23" class="in2" placeholder="GPA" value="0">
+            </form>
+        </div>
+        <div class="input2">
+            <form >
+                <label class="sub">Semester 4</label>
+                <input type="number" id="input24" class="in2" placeholder="GPA" value="0">
+            </form>
+        </div>
+        <div class="input2">
+            <form >
+                <label class="sub">Semester 5</label>
+                <input type="number" id="input25" class="in2" placeholder="GPA" value="0">
+            </form>
+        </div>
+        <div class="input2">
+            <form >
+                <label class="sub">Semester 6</label>
+                <input type="number" id="input26" class="in2" placeholder="GPA" value="0">
+            </form>
+        </div>
+        <div class="input2">
+            <form >
+                <label class="sub">Semester 7</label>
+                <input type="number" id="input27" class="in2" placeholder="GPA" value="0">
+            </form>
+        </div>
+        <div class="input2">
+            <form >
+                <label class="sub">Semester 8</label>
+                <input type="number" id="input28" class="in2" placeholder="GPA" value="0">
+            </form>
+        </div>
+        
+        <button onclick="run2()" class="calbtn">Calculate</button>
+        <button class="output"><p id="out2" class="outx">Result</p></button>
+    </div>
+    <div class="info">
         <h2 class="h2">Details of grading system followed at Anna University for regulation 2021</h2>
         <p class="p2">Grades are awarded to the students based on the marks they scored that lie within a range of 0 to 100. Anna University has revised their grading system and information related to the updated grade system for regulation 2017 & 2021 is given below.</p>
         <img src="marks.png" class="mark">
@@ -202,6 +274,8 @@
             
 
         </form>
+    <p class="copy">No copyright product used web application created by JEREMIAH F ,coherent{^} </p>
+
     </div>
     <script src="app.js"></script>
 </body>

@@ -19,10 +19,23 @@ function run(){
    
 }
 
-let button = document.querySelector(".menu"),
-    links = document.querySelector(".nav");
+function run2(){
+    const sint = parseInt( document.getElementById('sinput2').value);
+    const num1 = parseInt( document.getElementById('input21').value);
+    const num2 = parseInt( document.getElementById('input22').value);
+    const num3 = parseInt( document.getElementById('input23').value);
+    const num4 = parseInt( document.getElementById('input24').value);
+    const num5 = parseInt( document.getElementById('input25').value);
+    const num6 = parseInt( document.getElementById('input26').value);
+    const num7 = parseInt( document.getElementById('input27').value);
+    const num8 = parseInt( document.getElementById('input28').value);
+    sum1 = num1 + num2 + num3 +num4 +num5 + num6 +num7 +num8 ;
+    sum2 = sum1 / sint;
+    sum = Number((sum2).toFixed(5));
+    
+    out2.innerHTML = sum;
+    console.log(sum);
+   
+}
 
-    button.addEventListener("click",()=>{
-        links.classList.toggle("display")
-})
 
