@@ -1,3 +1,11 @@
+let button = document.querySelector(".menu"),
+    links = document.querySelector(".navbar");
+
+    button.addEventListener("click",()=>{
+        links.classList.toggle("display")
+})
+
+
 function run(){
     const sint = parseInt( document.getElementById('sinput').value);
     const num1 = parseInt( document.getElementById('input1').value);
@@ -37,5 +45,8 @@ function run2(){
     console.log(sum);
    
 }
+
+
+
 
 
