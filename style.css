@@ -329,6 +329,14 @@ html{
     border-style: none;
     font-size: 20px;
 }
+.what{
+    position: relative;
+    top: 600px;
+    left: 400px;
+    width: 30px;
+    padding: 20px;
+}
+
 .copy{
     position: relative;
     top: 700px;
@@ -555,7 +563,7 @@ html{
     }
     .form{
         position: relative;
-        top: -100px;
+        top: -200px;
         margin-left: -350px;
     }
     .name{
@@ -606,11 +614,18 @@ html{
         margin-top: 260px;
         margin-left: 140px;
     }
+    .what{
+        position: relative;
+        top: 350px;
+        left: 200px;
+        width: 30px;
+        padding: 20px;
+    }
     .copy{
         position: relative;
         font-size: 10px;
         left: 140px;
         width: 350px;
-        top: 400px;
+        top: 500px;
     }
 }
